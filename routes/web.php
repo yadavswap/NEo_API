@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('neogetbydt');
-});
+// Route::get('/', function () {
+//     return view('neogetbydt');
+// });
 
-Route::get('neogetbydt', 'ApiNeoController@neogetbydt');
+Route::get('/', 'ApiNeoController@neogetbydt');
 Route::post('colldate', 'ApiNeoController@colldate');
 
 Route::get('getdata', 'ApiNeoController@getdata');

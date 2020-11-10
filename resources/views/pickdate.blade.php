@@ -24,8 +24,8 @@
                 <form method="post" action="/colldate">
                     {{ csrf_field() }}
 
-                    dtfrom <input type="text" class=" ml-3" name="dtfrom" id="dtfrom">
-                    dtto <input type="text" class=" ml-3" name="dtto" id="dtto">
+                    Date From <input type="text" class=" ml-3" name="dtfrom" id="dtfrom">
+                    Date TO <input type="text" class=" ml-3" name="dtto" id="dtto">
                     <input type="submit" value="Submit" name="Submit" id="filter">
                 </form>
             </div>
